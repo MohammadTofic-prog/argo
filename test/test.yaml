@@ -65,7 +65,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: "*"  
+  - host: "localhost"  
     http:
       paths:
       - path: /
@@ -75,4 +75,3 @@ spec:
             name: hello-world
             port:
               number: 8080
-#
